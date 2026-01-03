@@ -27,3 +27,28 @@ The system computes similarity between movies based on textual content and provi
 ---
 
 
+
+## ▶️ How to Run This Project on Your Local Computer
+
+Clone the repository, create a virtual environment, install dependencies, and run the Streamlit application using the commands below.
+
+# Clone the repository
+git clone https://github.com/your-username/movie-recommendation-system.git
+cd movie-recommendation-system
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+
+# Activate the virtual environment
+# macOS / Linux
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+# Install required dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit application
+streamlit run app.py
+
+
