@@ -46,7 +46,6 @@ source venv/bin/activate
 venv\Scripts\activate
 
 # Install required dependencies
-pip install -r requirements.txt
 
 # Run the Streamlit application
 streamlit run app.py
